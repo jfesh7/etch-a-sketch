@@ -9,3 +9,19 @@ body {
 h1 {
 	font-size: 32px;
 }
+
+div.grid-container {
+	display: grid;
+	width: 500px;
+	height: 500px;
+	margin: 24px auto;
+}
+
+div.grid-item {
+	background-color: whitesmoke;
+	border: solid 1px slategray;
+}
+
+div.grid-item.filled {
+	background-color: black;
+}
