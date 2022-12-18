@@ -8,6 +8,8 @@ body {
 
 h1 {
 	font-size: 32px;
+	margin: 24px 0;
+	padding: 0;
 }
 
 div.grid-container {
@@ -24,4 +26,8 @@ div.grid-item {
 
 div.grid-item.filled {
 	background-color: black;
+}
+
+div.input-container {
+	margin: 24px auto;
 }
